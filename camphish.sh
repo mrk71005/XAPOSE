@@ -1,7 +1,7 @@
 #!/bin/bash
 # CamPhish v1.1
 
-trap 'printf "\n";stop' 2
+
 
 dependencies() {
 
